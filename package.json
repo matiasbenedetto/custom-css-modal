@@ -1,0 +1,18 @@
+{
+  "name": "custom-css-modal",
+  "version": "1.0.0",
+  "description": "WordPress plugin for enhanced CSS editing experience in the additional CSS field of the site editor.",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "packages-update": "wp-scripts packages-update"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^26.0.0"
+  },
+  "dependencies": {
+    "@wordpress/components": "^25.0.0",
+    "@wordpress/element": "^5.0.0",
+    "react-style-editor": "^0.4.0"
+  }
+}
